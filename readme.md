@@ -86,7 +86,7 @@ Should return an array of [MenuItem](https://electronjs.org/docs/api/menu-item/)
 
 The first argument is an array of default actions that can be used. The second argument is [this `params` object](https://electronjs.org/docs/api/web-contents/#event-context-menu). The third argument is the [BrowserWindow](https://electronjs.org/docs/api/browser-window/) the context menu was requested for.
 
-`MenuItem` labels may contain the the placeholder `{selection}` which will be replaced by the currently selected text as described in [`options.labels`](#labels).
+`MenuItem` labels may contain   placeholder `{selection}` which will be replaced by the currently selected text as described in [`options.labels`](#labels).
 
 #### append
 
@@ -96,7 +96,7 @@ Should return an array of [MenuItem](https://electronjs.org/docs/api/menu-item/)
 
 The first argument is an array of default actions that can be used. The second argument is [this `params` object](https://electronjs.org/docs/api/web-contents/#event-context-menu). The third argument is the [BrowserWindow](https://electronjs.org/docs/api/browser-window/) the context menu was requested for.
 
-`MenuItem` labels may contain the the placeholder `{selection}` which will be replaced by the currently selected text as described in [`options.labels`](#labels).
+`MenuItem` labels may contain the placeholder `{selection}` which will be replaced by the currently selected text as described in [`options.labels`](#labels).
 
 #### showLookUpSelection
 
